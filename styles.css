@@ -1,10 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -20,24 +20,47 @@ body {
 }
 
 .sidebar {
+  display: grid;
+  grid-template-rows: 75px 275px 175px;
+  justify-content: center;
   grid-row: span 2;
-  background-color: #588418;
-  padding: 2rem;
+  background-color: #1992d4;
   color: #fff;
   font-size: 23px;
   font-weight: 700;
+  padding: 1em;
+}
+
+.sidebar-header {
+  align-items: center;
+}
+
+.sidebar-section {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sidebar-icons,
+.sidebar-links {
+  display: grid;
+  align-items: center;
 }
 
 .sidebar a {
-  margin: 0.7rem 0;
   text-decoration: none;
   color: #fff;
   font-size: 16px;
 }
 
-.sidebar-section {
-  display: grid;
-  margin: 3rem 0;
+.sidebar-icon {
+  width: 1.3rem;
+  justify-self: center;
+}
+
+.sidebar-header-icon {
+  width: 2.8rem;
 }
 
 .header,
