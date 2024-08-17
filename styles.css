@@ -67,3 +67,21 @@ body {
 .main {
   grid-column: span 4;
 }
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 1em;
+}
+
+.header-section {
+  padding: 1em;
+}
+
+.icon {
+  width: 1.4rem;
+}
+
+.main {
+  background-color: #cbd5e1;
+}
