@@ -29,6 +29,7 @@ body {
   font-size: 23px;
   font-weight: 700;
   padding: 1em;
+  z-index: 1;
 }
 
 .sidebar-header {
@@ -75,7 +76,8 @@ body {
 .header {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  padding: 1em 2em;
+  z-index: 0;
+  box-shadow: hsl(0, 0%, 80%) 0px 5px 5px;
 }
 
 .header-section {
@@ -84,7 +86,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 5em;
-  padding: 0.5em 0.3em;
+  padding: 0 2em;
 }
 
 .search-bar,
@@ -143,7 +145,7 @@ h2 {
   border-radius: 2em;
   width: 75px;
   text-align: center;
-  padding: 0.5em 1em;
+  padding: 1em;
 }
 
 .main {
