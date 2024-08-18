@@ -54,8 +54,12 @@ body {
   font-size: 16px;
 }
 
+.icon,
 .sidebar-icon {
   width: 1.3rem;
+}
+
+.sidebar-icon {
   justify-self: center;
 }
 
@@ -75,13 +79,27 @@ body {
 }
 
 .header-section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 0.5em;
   padding: 1em;
 }
 
-.icon {
-  width: 1.4rem;
+.search,
+.search:focus {
+  border: none;
+  outline: none;
+  background-color: #e2e8f0;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+}
+
+.pfp-small {
+  width: 2.5em;
 }
 
 .main {
-  background-color: #cbd5e1;
+  background-color: #e2e8f0;
 }
