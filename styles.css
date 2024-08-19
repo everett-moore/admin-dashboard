@@ -75,9 +75,9 @@ body {
 
 .header {
   display: grid;
-  grid-template-rows: 1fr 1fr;
   z-index: 0;
   box-shadow: hsl(0, 0%, 80%) 0px 5px 5px;
+  padding: 1em 2.5em;
 }
 
 .header-section {
@@ -86,7 +86,6 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 5em;
-  padding: 0.5em 1.5em;
 }
 
 .search-bar,
@@ -149,4 +148,26 @@ h2 {
 
 .main {
   background-color: #e2e8f0;
+  padding: 2em 1.5em;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5em;
+  max-width: 70rem;
+}
+
+.main-card {
+  background-color: #fff;
+  border-radius: 0.5em;
+  padding: 1.5em;
+  width: clamp(0, 300px, 450px);
+  box-shadow: hsl(0, 0%, 80%) 0px 5px 5px;
+  border-left: 7px solid #f0b429;
+}
+
+.main h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
