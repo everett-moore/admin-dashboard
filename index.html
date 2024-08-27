@@ -7,209 +7,224 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="sidebar">
-        <div class="sidebar-section sidebar-header">
+    <div class="sidebar">
+      <div class="sidebar-section">
+        <div class="sidebar-item">
+          <img src="img/view-dashboard.svg" alt="" class="icon-large" />
+          <h2>Dashboard</h2>
+        </div>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-item">
+          <img src="img/home.svg" alt="" class="icon-small" />
+          <h3>Home</h3>
+        </div>
+        <div class="sidebar-item">
+          <img src="img/card-account-details.svg" alt="" class="icon-small" />
+          <h3>Profile</h3>
+        </div>
+        <div class="sidebar-item">
+          <img src="img/message-reply.svg" alt="" class="icon-small" />
+          <h3>Messages</h3>
+        </div>
+        <div class="sidebar-item">
           <img
-            class="sidebar-header-icon"
-            src="/assets/view-dashboard.svg"
+            src="img/clock-time-three-outline.svg"
             alt=""
+            class="icon-small"
           />
-          <div>Dashboard</div>
+          <h3>History</h3>
         </div>
-        <div class="sidebar-section">
-          <div class="sidebar-icons">
-            <img src="/assets/home.svg" alt="" class="sidebar-icon" />
-            <img
-              src="/assets/card-account-details.svg"
-              alt=""
-              class="sidebar-icon"
-            />
-            <img src="/assets/message-reply.svg" alt="" class="sidebar-icon" />
-            <img
-              src="/assets/clock-time-three-outline.svg"
-              alt=""
-              class="sidebar-icon"
-            />
-            <img src="/assets/file-multiple.svg" alt="" class="sidebar-icon" />
-            <img src="/assets/account-group.svg" alt="" class="sidebar-icon" />
-          </div>
-          <div class="sidebar-links">
-            <a href="#">Home</a>
-            <a href="#">Profile</a>
-            <a href="#">Messages</a>
-            <a href="#">History</a>
-            <a href="#">Tasks</a>
-            <a href="#">Communities</a>
-          </div>
+        <div class="sidebar-item">
+          <img src="img/file-multiple.svg" alt="" class="icon-small" />
+          <h3>Tasks</h3>
         </div>
-        <div class="sidebar-section">
-          <div class="sidebar-icons">
-            <img src="/assets/cog.svg" alt="" class="sidebar-icon" />
-            <img src="/assets/help-box.svg" alt="" class="sidebar-icon" />
-            <img src="/assets/shield-check.svg" alt="" class="sidebar-icon" />
-          </div>
-          <div class="sidebar-links">
-            <a href="#">Settings</a>
-            <a href="#">Support</a>
-            <a href="#">Privacy</a>
-          </div>
+        <div class="sidebar-item">
+          <img src="img/account-group.svg" alt="" class="icon-small" />
+          <h3>Communities</h3>
         </div>
       </div>
-      <div class="header">
-        <div class="header-section">
-          <div class="search-bar">
-            <img class="icon" src="/assets/magnify.svg" alt="" />
-            <input class="search" type="search" />
-          </div>
-          <div class="profile">
-            <img class="icon" src="/assets/bell-ring-outline.svg" alt="" />
-            <img class="pfp-small" src="assets/sheep.png" alt="" />
-            <h3>Everett Moore</h3>
-          </div>
+      <div class="sidebar-section">
+        <div class="sidebar-item">
+          <img src="img/cog.svg" alt="" class="icon-small" />
+          <h3>Settings</h3>
         </div>
-        <div class="header-section">
-          <div class="welcome">
-            <img class="pfp-large" src="assets/sheep.png" alt="" />
-            <div class="greeting-wrapper">
-              <div>Hi there,</div>
-              <h2>Everett Moore (@everett)</h2>
-            </div>
-          </div>
-          <div class="actions">
-            <a class="action-btn" href="#">New</a>
-            <a class="action-btn" href="#">Upload</a>
-            <a class="action-btn" href="#">Share</a>
-          </div>
+        <div class="sidebar-item">
+          <img src="img/help-box.svg" alt="" class="icon-small" />
+          <h3>Support</h3>
+        </div>
+        <div class="sidebar-item">
+          <img src="img/shield-check.svg" alt="" class="icon-small" />
+          <h3>Privacy</h3>
         </div>
       </div>
-      <div class="main">
-        <h3>Your Projects</h3>
-        <div class="card-wrapper">
-          <div class="main-card">
-            <h4>Super Cool Project</h4>
+    </div>
+    <div class="header">
+      <div class="header-row-top">
+        <div class="header-row-section hrow-section-start">
+          <img src="img/magnify.svg" alt="" class="icon-small" />
+          <div class="search-bar"></div>
+        </div>
+        <div class="header-row-section hrow-section-end">
+          <img src="img/bell-ring-outline.svg" alt="" class="icon-small" />
+          <img src="img/morgan.png" alt="" class="profile-picture-small" />
+          <h3>Morgan Oakley</h3>
+        </div>
+      </div>
+      <div class="header-row-bottom">
+        <div class="header-row-section hrow-section-start">
+          <img src="img/morgan.png" alt="" class="profile-picture-large" />
+          <div>
+            <h5>Hi there,</h5>
+            <h2>Morgan Oakley (@morgan)</h2>
+          </div>
+        </div>
+        <div class="header-row-section hrow-section-end">
+          <a href="" class="blue-btn">New</a>
+          <a href="" class="blue-btn">Upload</a>
+          <a href="" class="blue-btn">Share</a>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="cards">
+        <h2>Your Projects</h2>
+        <div class="cards-wrapper">
+          <div class="card">
+            <h3>Super Cool Project</h3>
             <p>
-              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nihb
-              erat, id facilisis fells accumsan nec.
+              Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh
+              erat, id facilisis felis accumsan nec.
             </p>
             <div class="card-icons">
-              <img class="icon" src="/assets/star-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/eye-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/source-fork.svg" alt="" />
+              <img src="img/star-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/eye-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/source-fork.svg" alt="" class="icon-small" />
             </div>
           </div>
-          <div class="main-card">
-            <h4>Less Cool Project</h4>
+          <div class="card">
+            <h3>Less Cool Project</h3>
             <p>
               Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque
               sed dolor tincidunt, consectetur sapien et, facilsis dolor. Duis
               sem purus, dignissim ut sapien in, varius pellentesque lacus.
             </p>
             <div class="card-icons">
-              <img class="icon" src="/assets/star-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/eye-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/source-fork.svg" alt="" />
+              <img src="img/star-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/eye-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/source-fork.svg" alt="" class="icon-small" />
             </div>
           </div>
-          <div class="main-card">
-            <h4>Impossible App</h4>
+          <div class="card">
+            <h3>Impossible App</h3>
             <p>
-              In hac habitasse platea dictumst. vivamus dictum rutrum arcu, a
-              placerat, velit sagittis id.
+              In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a
+              placerat velit sagittis id.
             </p>
             <div class="card-icons">
-              <img class="icon" src="/assets/star-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/eye-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/source-fork.svg" alt="" />
+              <img src="img/star-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/eye-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/source-fork.svg" alt="" class="icon-small" />
             </div>
           </div>
-          <div class="main-card">
-            <h4>Easy Peasy App</h4>
+          <div class="card">
+            <h3>Easy Peasy App</h3>
             <p>
               Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim
-              nisi in tortor commodo, ac bibendum magnu tincidunt.
+              urna eget accumsan aliquam. Curabitur dignissim nisi in tortor
+              commodo, ac bibendum magnu tincidunt.
             </p>
             <div class="card-icons">
-              <img class="icon" src="/assets/star-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/eye-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/source-fork.svg" alt="" />
+              <img src="img/star-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/eye-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/source-fork.svg" alt="" class="icon-small" />
             </div>
           </div>
-          <div class="main-card">
-            <h4>Ad Blocker</h4>
+          <div class="card">
+            <h3>Ad Blocker</h3>
             <p>
               Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel,
-              pharetra hendrerit felis. aliquam sed malesuada eros.
+              pharetra hendrerit felis. Aliquam sed malesuada eros.
             </p>
             <div class="card-icons">
-              <img class="icon" src="/assets/star-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/eye-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/source-fork.svg" alt="" />
+              <img src="img/star-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/eye-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/source-fork.svg" alt="" class="icon-small" />
             </div>
           </div>
-          <div class="main-card">
-            <h4>Money Maker</h4>
+          <div class="card">
+            <h3>Money Maker</h3>
             <p>
               Praesent convallis, libero quis conque elementum, nunc ante
               faucibus sapien, ac scelerisque tortor purus sit amet ex.
               Pellentesque mollis nec sem vel aliquam.
             </p>
             <div class="card-icons">
-              <img class="icon" src="/assets/star-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/eye-plus-outline.svg" alt="" />
-              <img class="icon" src="/assets/source-fork.svg" alt="" />
+              <img src="img/star-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/eye-plus-outline.svg" alt="" class="icon-small" />
+              <img src="img/source-fork.svg" alt="" class="icon-small" />
             </div>
           </div>
         </div>
-        <div class="aside">
-          <h3>Announcements</h3>
-          <div class="announcements-wrapper">
-            <div class="announcements-card sector-underline">
-              <h5>Site Maintenance</h5>
-              <p>
-                Vestibulum condimentum tellus lacus in accumsan elit maximus ac.
-                Donec hendreit sodals congue...
-              </p>
-            </div>
-            <div class="announcements-card sector-underline">
-              <h5>Community Share Day</h5>
-              <p>
-                Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.
-                Aliquam dictum accumsan porttitor...
-              </p>
-            </div>
-            <div class="announcements-card">
-              <h5>Updated Privacy Policy</h5>
-              <p>
-                Phasellus efficitur nisi eget elit consectetur, eget condimentum
-                ante auctor. Cras fringilla sagittis sem in mattis...
-              </p>
-            </div>
+      </div>
+      <div class="aside">
+        <h2>Announcements</h2>
+        <div class="aside-wrapper">
+          <div class="announcements-card">
+            <h4>Site Maintenance</h4>
+            <p class="border-bottom">
+              Vestibulum condimentum tellus lacus in accumsan elit maximus ac.
+              Donec hendrerit sodales congue...
+            </p>
+            <h4>Community Share Day</h4>
+            <p class="border-bottom">
+              Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam
+              dictum accumsan porttitor...
+            </p>
+            <h4>Updated Privacy Policy</h4>
+            <p>
+              Phasellus efficitur nisi eget elit consectetur, eget condimenetum
+              ante auctor. Cras fringilla sagittis sem in mattis...
+            </p>
           </div>
-          <h3>Trending</h3>
           <div class="trending-wrapper">
-            <div class="profile-pictures">
-              <img src="/assets/eagle.png" alt="" class="pfp-small" />
-              <img src="/assets/sheep.png" alt="" class="pfp-small" />
-              <img src="/assets/dove.png" alt="" class="pfp-small" />
-              <img src="/assets/lion.png" alt="" class="pfp-small" />
-            </div>
-            <div class="users">
-              <div class="user-section">
-                <div>@tegan</div>
-                <div class="status">World Peace Builder</div>
+            <h2>Trending</h2>
+            <div class="trending-card">
+              <div class="user">
+                <img src="img/tegan.png" alt="" class="profile-picture-small" />
+                <div class="user-text">
+                  <div>@tegan</div>
+                  <p>World Peace Builder</p>
+                </div>
               </div>
-              <div class="user-section">
-                <div>@everett</div>
-                <div class="status">Super Cool Project</div>
+              <div class="user">
+                <img
+                  src="img/morgan.png"
+                  alt=""
+                  class="profile-picture-small"
+                />
+                <div class="user-text">
+                  <div>@morgan</div>
+                  <p>super Cool Project</p>
+                </div>
               </div>
-              <div class="user-section">
-                <div>@kendall</div>
-                <div class="status">Life Changing App</div>
+              <div class="user">
+                <img
+                  src="img/kendall.png"
+                  alt=""
+                  class="profile-picture-small"
+                />
+                <div class="user-text">
+                  <div>@kendall</div>
+                  <p>Life Changing App</p>
+                </div>
               </div>
-              <div class="user-section">
-                <div>@alex</div>
-                <div class="status">No Traffic Maker</div>
+              <div class="user">
+                <img src="img/alex.png" alt="" class="profile-picture-small" />
+                <div class="user-text">
+                  <div>@alex</div>
+                  <p>No Traffic Maker</p>
+                </div>
               </div>
             </div>
           </div>
